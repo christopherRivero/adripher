@@ -1,4 +1,4 @@
-package com.adripher.adripher;
+package com.adripher.adripher.presenter;
 
 /**
  * Created by jmercadal on 10/03/2016.
@@ -10,9 +10,9 @@ public interface MapsActivityView {
     void iniciarMapa();
 
     /**
-     * Geolocaliza posicion en mapa del dispositivo
-     * @param direccion
-     * @return
+     * Metodo para ir a sitios cercanos
      */
-    String geolocalaiza(String direccion);
+    void irSitios();
+
+
 }

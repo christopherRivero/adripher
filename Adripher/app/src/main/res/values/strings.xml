@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">Adripher</string>
     <string name="title_activity_maps">Map</string>
+    <string name="title_attributions">Attributions: </string>
+    <string name="title_address">Dirección: </string>
+    <string name="title_phone">Teléfono: </string>
+    <string name="title_url">URL: </string>
+    <string name="title_name">Name: </string>
+    <string name="sin_asignar">Sin asignar. </string>
+
+    <string name="place_details">&lt;b&gt;%1$s&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Place Id: %2$s&lt;/i&gt;&lt;br/&gt;Address: %3$s&lt;br/&gt;Phone: %4$s&lt;br/&gt;Website: %5$s</string>
 </resources>

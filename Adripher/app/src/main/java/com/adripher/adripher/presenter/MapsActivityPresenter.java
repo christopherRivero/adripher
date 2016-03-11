@@ -1,4 +1,4 @@
-package com.adripher.adripher;
+package com.adripher.adripher.presenter;
 
 import android.support.v4.app.FragmentActivity;
 
@@ -17,5 +17,10 @@ public class MapsActivityPresenter implements IMapsActivityPresenterImp {
     @Override
     public void inicializaMapa() {
         mapsActivityView.iniciarMapa();
+    }
+
+    @Override
+    public void irSitios() {
+        mapsActivityView.irSitios();
     }
 }
